@@ -6,7 +6,7 @@ class CollapsingToolbar extends Component{
 
     static HEADER_NORMAL_HEIGHT = 0
     static HEADER_COLLAPSING_HEIGHT = 50
-    static TABBAR_HEIGHT = 0
+    static TABBAR_HEIGHT = 50
 
     constructor(props){
         super(props)

@@ -23,15 +23,18 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import { CollapsingToolbar } from './ui';
+import { CollapsingToolbar , SwipePager} from './ui';
 
 
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <CollapsingToolbar>
-      </CollapsingToolbar>
+      {/* <CollapsingToolbar>
+      </CollapsingToolbar> */}
+      <SwipePager>
+        
+      </SwipePager>
     </>
   );
 };
